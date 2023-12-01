@@ -2,7 +2,6 @@
   import Card from "$lib/components/Card.svelte";
   export let data;
   let {techBlog} = data;
-  console.log(techBlog);
 </script>
 
 <!-- <ul>
