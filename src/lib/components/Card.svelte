@@ -4,10 +4,12 @@
   export let tags;
 </script>
 
-<a href="/">
-  <article>
-    <h2>{title}</h2>
-    <p>{author}</p>
-    <p>{tags}</p>
-  </article>
-</a>
+<div>
+  <a href="/blog/{title}">
+    <article>
+      <h2>{title}</h2>
+      <p>{author}</p>
+      <p>{tags}</p>
+    </article>
+  </a>
+</div>

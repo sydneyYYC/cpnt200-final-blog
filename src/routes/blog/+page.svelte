@@ -5,7 +5,7 @@
   console.log(techBlog);
 </script>
 
-<ul>
+<!-- <ul>
   {#each techBlog as post}
     <li>{post.title}</li>
     <li>{post.author}</li>
@@ -13,6 +13,8 @@
     <li>{post.content}</li>
     
   {/each}
-</ul>
+</ul> -->
 
-<Card {...techBlog[0]}/>
+{#each techBlog as post}
+  <Card {...post}/>
+{/each}
