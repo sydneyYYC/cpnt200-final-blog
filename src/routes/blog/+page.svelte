@@ -1,0 +1,18 @@
+<script>
+  import Card from "$lib/components/Card.svelte";
+  export let data;
+  let {techBlog} = data;
+  console.log(techBlog);
+</script>
+
+<ul>
+  {#each techBlog as post}
+    <li>{post.title}</li>
+    <li>{post.author}</li>
+    <li>{post.tags}</li>
+    <li>{post.content}</li>
+    
+  {/each}
+</ul>
+
+<Card {...techBlog[0]}/>
