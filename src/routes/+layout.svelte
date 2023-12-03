@@ -3,4 +3,4 @@
 </script>
 
 <slot />
-<h1 class="text-blue-600">hi</h1>
+<!-- <h1 class="text-blue-600">hi</h1> -->
