@@ -18,7 +18,7 @@
 
 <div>
   <a href="/blog/{slug}">
-    <article class="bg-white w-[20rem] p-4 m-10 flex flex-col">
+    <article class="bg-white w-[20rem] p-4 m-10 flex flex-col hover:bg-slate-50">
       <p class="bg-blue-900 max-w-min px-1 py-[1px] text-white mr-2 mb-2">{category}</p>
       <h2 class="text-2xl">{title}</h2>
       <p class="text-lg">{author}</p>
@@ -44,6 +44,10 @@
 
   article {
     box-shadow: -4px 7px 13px 2px #FACC15;
+  }
+
+  article:hover {
+    box-shadow: -4px 7px 13px 6px #FACC15;
   }
 </style>
 
