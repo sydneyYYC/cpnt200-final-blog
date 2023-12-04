@@ -2,7 +2,12 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        libreBaskerville: ['Libre Baskerville', 'serif'],
+        sourceSans: ['Source Sans 3', 'sans-serif'],
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 };
