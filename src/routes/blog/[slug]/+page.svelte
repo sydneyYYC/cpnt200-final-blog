@@ -3,16 +3,6 @@
   console.log(data);
 </script>
 
-<header class="bg-slate-900 flex justify-between p-2">
-  <div class="static w-48 h-10 text-3xl text-white mx-2"> <a href="/">Tech Insights</a></div>
-  <nav>
-    <ul class="flex justify-around gap-4">
-      <li class=" text-2xl text-white">
-          <a class="m-2 hover:text-white" href="/blog">Blogs</a>
-      </li>
-    </ul>
-  </nav>
-</header>
 
 <main class="bg-blue-950 text-white min-h-screen flex max-w-max">
     <section>
