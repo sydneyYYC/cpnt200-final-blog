@@ -3,7 +3,7 @@
   <nav>
     <ul class="flex justify-around gap-4">
       <li class=" text-2xl text-black">
-          <a class="text-3xl m-2 hover:text-yellow-400" href="/blog">Blogs</a>
+          <a class="text-3xl m-2 hover:bg-yellow-400 font-libreBaskerville" href="/blog">Blogs</a>
       </li>
     </ul>
   </nav>
